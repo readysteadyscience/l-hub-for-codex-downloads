@@ -1,0 +1,10 @@
+{
+  "product": "L-Hub for Codex",
+  "version": "0.1.0",
+  "packageName": "@readysteadyscience/l-hub-for-codex",
+  "tarball": "readysteadyscience-l-hub-for-codex-0.1.0.tgz",
+  "packageUrl": "https://raw.githubusercontent.com/readysteadyscience/l-hub-for-codex-downloads/main/v0.1.0/readysteadyscience-l-hub-for-codex-0.1.0.tgz",
+  "installScript": "https://raw.githubusercontent.com/readysteadyscience/l-hub-for-codex-downloads/main/v0.1.0/install.sh",
+  "sha256": "292039789468f0b37da8bc06432666c6c720483d0e07bc03d89203476b629f16",
+  "generatedAt": "2026-03-29T18:20:36.161Z"
+}
