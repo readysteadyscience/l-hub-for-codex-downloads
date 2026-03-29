@@ -13,17 +13,21 @@ curl -fsSL https://github.com/readysteadyscience/l-hub-for-codex-downloads/raw/r
 After installation:
 
 ```bash
+lhub setup
 lhub console
-lhub init
-lhub doctor
+lhub doctor --probe
 ```
 
 ## Current version
 
-- `v0.1.2`
+- `v0.2.0`
 
 ## Versioned assets
 
+- [`v0.2.0/install.sh`](./v0.2.0/install.sh)
+- [`v0.2.0/manifest.json`](./v0.2.0/manifest.json)
+- [`v0.2.0/checksums.txt`](./v0.2.0/checksums.txt)
+- `v0.2.0/readysteadyscience-l-hub-for-codex-0.2.0.tgz`
 - [`v0.1.2/install.sh`](./v0.1.2/install.sh)
 - [`v0.1.2/manifest.json`](./v0.1.2/manifest.json)
 - [`v0.1.2/checksums.txt`](./v0.1.2/checksums.txt)
