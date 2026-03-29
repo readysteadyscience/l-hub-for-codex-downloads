@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "packageName": "@readysteadyscience/l-hub-for-codex",
   "tarball": "readysteadyscience-l-hub-for-codex-0.1.1.tgz",
-  "packageUrl": "https://raw.githubusercontent.com/readysteadyscience/l-hub-for-codex-downloads/main/v0.1.1/readysteadyscience-l-hub-for-codex-0.1.1.tgz",
-  "installScript": "https://raw.githubusercontent.com/readysteadyscience/l-hub-for-codex-downloads/main/v0.1.1/install.sh",
+  "packageUrl": "https://github.com/readysteadyscience/l-hub-for-codex-downloads/raw/refs/heads/main/v0.1.1/readysteadyscience-l-hub-for-codex-0.1.1.tgz",
+  "installScript": "https://github.com/readysteadyscience/l-hub-for-codex-downloads/raw/refs/heads/main/v0.1.1/install.sh",
   "sha256": "bf7725f0a458610f78ef16b230d80225c4abf161250e911e55b480bb9cbcc172",
-  "generatedAt": "2026-03-29T18:50:41.023Z"
+  "generatedAt": "2026-03-29T18:53:41.418Z"
 }

@@ -4,7 +4,7 @@ set -euo pipefail
 PRODUCT_NAME="L-Hub for Codex"
 PACKAGE_VERSION="0.1.1"
 PACKAGE_FILENAME="readysteadyscience-l-hub-for-codex-0.1.1.tgz"
-PACKAGE_URL="https://raw.githubusercontent.com/readysteadyscience/l-hub-for-codex-downloads/main/v0.1.1/readysteadyscience-l-hub-for-codex-0.1.1.tgz"
+PACKAGE_URL="https://github.com/readysteadyscience/l-hub-for-codex-downloads/raw/refs/heads/main/v0.1.1/readysteadyscience-l-hub-for-codex-0.1.1.tgz"
 INSTALL_BASE_DIR="${LHUB_INSTALL_BASE:-$HOME/.local/share/l-hub-for-codex}"
 INSTALL_DIR="$INSTALL_BASE_DIR/$PACKAGE_VERSION"
 CURRENT_LINK="$INSTALL_BASE_DIR/current"
