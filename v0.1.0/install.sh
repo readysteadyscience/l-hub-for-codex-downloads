@@ -9,6 +9,7 @@ INSTALL_BASE_DIR="${LHUB_INSTALL_BASE:-$HOME/.local/share/l-hub-for-codex}"
 INSTALL_DIR="$INSTALL_BASE_DIR/$PACKAGE_VERSION"
 CURRENT_LINK="$INSTALL_BASE_DIR/current"
 BIN_DIR="${LHUB_BIN_DIR:-$HOME/.local/bin}"
+AUTO_LAUNCH="${LHUB_AUTO_LAUNCH:-1}"
 
 need_cmd() {
   if ! command -v "$1" >/dev/null 2>&1; then
@@ -122,9 +123,18 @@ Direct wrappers:
 If "$BIN_DIR" is not in your PATH, add this line:
   export PATH="$BIN_DIR:\$PATH"
 
-Next recommended step:
-  lhub console
 DONE
+
+  if [[ "$AUTO_LAUNCH" != "0" ]] && [[ -r /dev/tty ]] && [[ -w /dev/tty ]]; then
+    echo ""
+    echo "Launching L-Hub console..."
+    echo "Set LHUB_AUTO_LAUNCH=0 if you want to skip auto-launch."
+    "$BIN_DIR/lhub" console </dev/tty >/dev/tty 2>/dev/tty || true
+  else
+    echo ""
+    echo "Next recommended step:"
+    echo "  lhub console"
+  fi
 }
 
 main "$@"
